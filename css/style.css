@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.course-content {
+    flex: 1;
+    max-width: 60%;
+    background-color: #333; /* Gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.instructor-image {
+    flex: 1;
+    max-width: 40%;
+    text-align: center;
+}
+
+.instructor-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.course-features, .course-skills {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.course-features i, .course-skills i {
+    color: #00d0ff;
+    margin-right: 10px;
+}
+
+.skills-list {
+    display: none;
+    padding-left: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+.reveal-button {
+    cursor: pointer;
+    color: #00d0ff;
+    text-decoration: underline;
+}
+
+.reveal-button:hover {
+    text-decoration: none;
+}
+
+.highlight {
+    background-color: #444; /* Darker gray for highlights */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.payment-button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 15px 20px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
